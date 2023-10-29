@@ -1,0 +1,126 @@
+body{
+    background-color: hsl(0, 0%, 100%);
+}
+.parentblock{
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    justify-content:center;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 auto;
+    padding: 230px 0px 0px 0px;
+    
+}
+.divparent1{
+    width: 300px;
+    height:420px;
+    background-color: hsl(241, 81%, 54%);
+    padding: 20px 0px 0px 0px;
+    border-radius:  30px 30px 30px 30px;
+
+}
+.divparent2{
+    width: 300px;
+    height:440px ;
+    background-color: brown;
+    border-radius: 0px 30px 30px 0px; /*In clockwise direction TR TL BR BL*/
+    margin: 0px 0px 0px 20px;
+
+}
+.resultcontainer{
+    width:280px ;
+    height: 30px;
+    background-color: hsl(241, 81%, 54%);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+
+}
+
+.resultcontainer p{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  hsl(241, 100%, 89%);
+    
+}
+.circle{
+    width:170px ;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(241, 68%, 49%);
+    border-radius: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+
+
+
+}
+.circle p{
+    color:hsl(241, 100%, 89%);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.circle p span{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.greatcontainer{
+    width: 300px;
+    height:35px ;
+    background-color: hsl(241, 81%, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+.greatcontainer p{
+    color: white;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.score{
+    width: 190px;
+    height:35px ;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+
+}
+
+.score p{
+    color:hsl(241, 100%, 89%);
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+.color{
+
+    color: hsl(221, 100%, 96%);
+    color: hsl(241, 100%, 89%);
+    color: hsl(224, 30%, 27%);
+}
