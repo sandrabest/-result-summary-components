@@ -15,6 +15,7 @@ body{
     width: 300px;
     height:420px;
     background-color: hsl(241, 81%, 54%);
+    background: linear-gradient(to right, rgb(87, 63, 195), blue);
     padding: 20px 0px 0px 0px;
     border-radius:  30px 30px 30px 30px;
 
@@ -111,6 +112,129 @@ body{
     text-align: center;
 
 }
+
+.summarycontainer{
+    width:280px ;
+    height: 30px;
+    background-color: hsl(241, 81%, 54%);
+
+}
+
+.summarycontainer p{
+    font-size: 20px;
+    padding: 0px 0px 0px 0px ;
+}
+
+.reactionparent{
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: hsl(0, 100%, 67%);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+    
+
+}
+.reactionparent img{
+
+}
+.reactionparent h5{
+
+}
+.reactionparent p{
+
+}
+
+.memoryparent{
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: hsl(39, 100%, 56%);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.memoryparent img{
+
+}
+.memoryparent h5{
+
+}
+.memoryparent p{
+
+}
+
+.verbalparent{
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:hsl(166, 100%, 37%);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+.verbalparent img{
+
+}
+.verbalparent h5{
+
+}
+.verbalparent p{
+
+}
+
+.visualparent{
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:hsl(234, 85%, 45%);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+.visualparent img{
+
+}
+.visualparent h5{
+
+}
+.visualparent p{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
